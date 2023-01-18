@@ -12,7 +12,7 @@ input, button, textarea, select { font: inherit }
 /* ================= ENDS ================ */
 
 body {
-    background-color: #4A412A;
+    background-color: #ff883e;
     color: #fff;
     
 }
@@ -24,6 +24,19 @@ a {
 
 section { 
     padding: 5% 5% 5% 5%;
+}
+
+.section-1 {
+    background-color: #169b62
+}
+
+.section-2 {
+    background-color: #fff;
+    color: black;
+}
+
+.main-title {
+    text-shadow: 0 0 10px #000;
 }
 
 h1 {
