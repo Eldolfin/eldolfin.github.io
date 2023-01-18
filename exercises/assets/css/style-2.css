@@ -10,10 +10,18 @@ h1, h2, h3, h4 { width: 100% }
 input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
+@import url("https://lunevedy.com/assets/css/lunevedy.css");
+
+/* mobiles */
+@media (min-width: 768px) {section {padding: 4% 20%}}
+
+/* computers */
+@media (man-width: 768px) {section {padding: 12% 8%}}
+
 
 body {
-    background-color: #ff883e;
     color: #fff;
+    background-image: linear-gradient(120deg, #ff883e 80%, #fff 100%);
     
 }
 
@@ -22,21 +30,14 @@ a {
     text-decoration: underline;
 }
 
-section { 
-    padding: 5% 5% 5% 5%;
-}
-
 .section-1 {
-    background-color: #169b62
+    background-image: radial-gradient(#56dba2, #169b62 80%);
+
 }
 
 .section-2 {
-    background-color: #fff;
     color: black;
-}
-
-.main-title {
-    text-shadow: 0 0 10px #000;
+    background-image: repeating-linear-gradient(45deg, #fff, #fff 10px, #f5f5f5 10px, #f5f5f5 20px);
 }
 
 h1 {
@@ -49,6 +50,7 @@ h1 {
 h2 {
     font-size: 36px;
     margin-bottom: 4px;
+    text-shadow: 0 0 10px #000;
 }
 
 h3 {
