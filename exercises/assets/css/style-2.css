@@ -11,6 +11,17 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+body {
+    background-color: #4A412A;
+    color: #fff;
+    
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 section { 
     padding: 5% 5% 5% 5%;
 }
