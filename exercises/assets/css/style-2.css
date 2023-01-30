@@ -268,11 +268,12 @@ a {
 }
 
 h2 {
-    font-size: 36px;
     margin-bottom: 4px;
     text-shadow: 0 0 10px var(--black-000);
+    font-size: calc(2px + (42-22) * ((100vw - 320px) / (1600 - 320)));
 }
 
 p {
     font-family: sans-serif;
+    font-size: calc(22px + (42-22) * ((100vw - 320px) / (1600 - 320)));
 }
