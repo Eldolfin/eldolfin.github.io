@@ -11,6 +11,32 @@
 
 .section-selector-2 { font-family: 'Playfair Display', serif }
 
+.section-selector-3 { background-color: var(--trend-800) }
+.section-selector-3 .col-1 h2 { color: var(--sky-300) }
+.section-selector-3 .col-1 h3 { color: var(--slate-200) }
+.section-selector-3 .col-3 h3 { color: var(--sky-300) }
+.section-selector-3 .col-3 p { color: var(--slate-200) }
+.section-selector-3 .col-3 li { color: var(--slate-200) }
+.section-selector-3.theme-light .cols-background .col-3 { background-color: var(--trend-700) }
+.section-selector-3 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--sky-300) }
+
+.section-selector-4 { background-color: var(--green-200) }
+.section-selector-4 > h2 span.highlight { color: var(--gray-600) }
+.section-selector-4 {
+    font-family: 'Inter', sans-serif;
+    background-color: #73c9b7;
+}
+.section-selector-4 > h2 span.highlight {
+    color: var(--gray-700);
+}
+
+.section-selector-4.w-1140px h2 {
+    font-size: calc(22px + (42 - 22) * ((100vw - 320px) / (1140 - 320)));
+    line-height: 1.3;
+    max-width: 30ch;
+}
+
+
 .section-selector-5 {
     background-color: var(--slate-050);
     font-family: 'Inter', sans-serif;
