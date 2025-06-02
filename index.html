@@ -4,13 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Oscar's website</title>
-  <link href="https://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet">
+  <title>Oscar Le Dauphin</title>
+  <link href="/reset.css" rel="stylesheet">
+  <link rel="icon" href="data:,">
   <style>
     body {
       background-color: #181818;
       color: #e4e4e4;
       margin: 16px;
+      font-family: sans-serif;
     }
 
     h1 {
@@ -19,6 +21,7 @@
 
     h2 {
       font-size: 28px;
+      margin-top: 24px;
     }
 
     ul {
@@ -26,19 +29,40 @@
     }
 
     li {
-      padding: 2px;
+      padding: 4px 0;
     }
 
     a {
       text-decoration: none;
       color: dodgerblue;
     }
+
+
+    .job {
+      margin-bottom: 16px;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    .job-meta {
+      font-style: italic;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    .description {
+      margin-left: 20px;
+      margin-top: 4px;
+    }
   </style>
 </head>
 
 <body>
   <h1>Oscar Le Dauphin</h1>
-  <br>
+  Student at EPITA, majoring in Artificial Intelligence, NLP minor
+
   <h2>Links</h2>
   <ul>
     <li>
@@ -51,6 +75,95 @@
       Discord: #Eldolfin
     </li>
   </ul>
+
+  <h2>Experience</h2>
+  <ul>
+    <li class="job">
+      <span class="job-title">Qarnot – Software Engineer Intern</span>
+      <span class="job-meta">September 2024 – January 2025, Montrouge, France — <a href="https://qarnot.com/en"
+          target="_blank">qarnot.com</a></span>
+      <ul class="description">
+        <li>Worked on the development of a remote desktop solution within the QNetwork team</li>
+        <li>Reduced network and VDI latency by 50% through profiling and targeted benchmarking</li>
+        <li>Tested and analyzed performance across multiple protocols (TCP, UDP, WebSocket, WebTransport)</li>
+        <li>Developed a high-performance WebAssembly (WASM) client with a UI in Typescript</li>
+        <li>Optimized real-time video streaming using FFmpeg for efficient transfer and compression</li>
+        <li>Packaged cross-platform builds using WiX Toolset (Windows) and nFPM (Linux)</li>
+        <li>Implemented CI/CD pipelines with GitHub Actions for integration testing and continuous deployment</li>
+      </ul>
+    </li>
+    <li class="job">
+      <span class="job-title">EPITA – Teaching Assistant (ACDC)</span>
+      <span class="job-meta">School year 2023/2024, Paris — <a href="https://epita.fr"
+          target="_blank">epita.fr</a></span>
+      <ul class="description">
+        <li>Taught the fundamentals of object-oriented programming in C# and functional programming in OCaml</li>
+        <li>Targeted at first-year preparatory students</li>
+      </ul>
+    </li>
+
+    <li class="job">
+      <span class="job-title">Orange Cyberdefense – Intern</span>
+      <span class="job-meta">July – August 2023, La Défense, Paris — <a href="https://www.orangecyberdefense.com/"
+          target="_blank">orangecyberdefense.com</a></span>
+      <ul class="description">
+        <li>Full-stack development using Angular and NodeJS (TypeScript)</li>
+        <li>Used GitLab CI to streamline development cycles</li>
+        <li>Agile development with weekly retrospectives</li>
+        <li>Created real-time client dashboards and reports</li>
+      </ul>
+    </li>
+
+    <li class="job">
+      <span class="job-title">Equans (Engie) – Part-time Job</span>
+      <span class="job-meta">July 2022 – March 2023, Brussels (then remote) — <a href="https://www.equans.com"
+          target="_blank">equans.com</a></span>
+      <ul class="description">
+        <li>Worked in the HR, Reporting & Analytics team</li>
+        <li>Automated repetitive manual tasks</li>
+        <li>Used Python (Pandas) for data processing</li>
+        <li>Created office automation flows with Microsoft PowerAutomate</li>
+      </ul>
+    </li>
+
+    <li class="job">
+      <span class="job-title">Bali Prod – Observer Intern</span>
+      <span class="job-meta">May 2018 (1 week), Bali, Indonesia — <a href="https://baliprod.com"
+          target="_blank">baliprod.com</a></span>
+      <ul class="description">
+        <li>Assisted in video production, editing, and visual effects integration</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Education</h2>
+  <ul>
+    <li class="job">
+      <span class="job-title">EPITA Paris – Computer Engineering</span>
+      <span class="job-meta">Graduating in 2026</span>
+      <ul class="description">
+        <li>Majoring in SCIA (Artificial Intelligence track at EPITA)</li>
+        <li>Student teacher experiences</li>
+      </ul>
+    </li>
+
+    <li class="job">
+      <span class="job-title">Dorset College Ireland – Programming</span>
+      <span class="job-meta">January – May 2023</span>
+      <ul class="description">
+        <li>Semester abroad</li>
+      </ul>
+    </li>
+
+    <li class="job">
+      <span class="job-title">Lycée Fénelon Paris – Math & Physics Specialties</span>
+      <span class="job-meta">2020 – 2021</span>
+      <ul class="description">
+        <li>French Baccalauréat with honors (mention assez bien)</li>
+      </ul>
+    </li>
+  </ul>
+
 </body>
 
 </html>
