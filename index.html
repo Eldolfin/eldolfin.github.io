@@ -143,8 +143,9 @@
   <script defer>new TypeIt("#title").go()</script>
   <script defer type="module">
     import init from '/langton.wasm/pkg/langton.js';
+    const canvas = document.getElementById('canvas');
     canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.height = document.body.scrollHeight;
     init();
   </script>
 
