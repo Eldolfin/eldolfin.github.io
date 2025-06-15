@@ -47,15 +47,6 @@ a {
   margin-top: 4px;
 }
 
-
-#canvas {
-  position: absolute;
-  z-index: -2;
-  width: 100%;
-  opacity: 20%;
-  pointer-events: none;
-}
-
 .content-wrapper {
   position: relative;
 }
@@ -74,7 +65,7 @@ a {
   left: 0;
   bottom: 0;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   pointer-events: none;

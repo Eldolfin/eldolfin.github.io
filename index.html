@@ -17,13 +17,12 @@
 </head>
 
 <body>
-  <canvas id="canvas"></canvas>
   <div class="content-wrapper">
     <div class="blur-left"></div>
     <div class="content">
       <header>
         <h1 id="title">Oscar Le Dauphin</h1>
-        <p>I'm a student at EPITA, majoring in Artificial Intelligence, NLP minor</p>
+        <p>I'm a student at EPITA, majoring in Artificial Intelligence, computer vision minor</p>
       </header>
 
       <nav>
@@ -143,9 +142,6 @@
   <script defer>new TypeIt("#title").go()</script>
   <script defer type="module">
     import init from '/langton.wasm/pkg/langton.js';
-    const canvas = document.getElementById('canvas');
-    canvas.width = window.innerWidth;
-    canvas.height = document.body.scrollHeight;
     init();
   </script>
 
